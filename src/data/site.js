@@ -32,18 +32,18 @@ export const site = {
       tags: ['Python', 'ML', 'Jupyter'],
     },
     {
-      title: 'CS 5330 Final Project',
-      // TODO: describe the problem and approach (CS 5330 = Pattern Recognition & Computer Vision).
-      description: 'Graduate computer-vision coursework capstone in Python.',
+      title: 'ISBN Scanner',
+      description:
+        'Desktop book-identification app for CS 5330 (Pattern Recognition & CV): Sobel gradients, morphological ops, and contour analysis locate barcodes; pyzbar decodes and OpenLibrary fills in titles and authors.',
       href: 'https://github.com/atiq-sm/CS-5330-Final-Project',
-      tags: ['Python', 'Computer Vision'],
+      tags: ['Python', 'OpenCV', 'Computer Vision', 'Tkinter'],
     },
     {
       title: 'ZombieGame',
-      // TODO: describe what makes this prototype interesting.
-      description: 'Zombie-survival game prototype built in Unity.',
+      description:
+        'Mixed-reality zombie shooter for Meta Quest 3: MRUK scans the room, a runtime-built NavMesh lets zombies pathfind around real furniture, and physics-based bullets turn passthrough walls into spawn points.',
       href: 'https://github.com/atiq-sm/ZombieGame',
-      tags: ['Unity', 'C#'],
+      tags: ['Unity 6', 'Meta Quest 3', 'Mixed Reality', 'C#'],
     },
     {
       title: 'Portfolio Site',
