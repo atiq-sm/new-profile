@@ -1,5 +1,6 @@
 import { motion } from 'framer-motion';
 import { site } from '../data/site.js';
+import RepoMeta from '../components/RepoMeta.jsx';
 
 const EASE = [0.22, 1, 0.36, 1];
 
@@ -35,6 +36,7 @@ export default function Projects() {
           >
             <h3>{project.title}</h3>
             <p>{project.description}</p>
+            <RepoMeta href={project.href} />
             {project.tags?.length > 0 && (
               <ul className="tag-list">
                 {project.tags.map((tag) => (

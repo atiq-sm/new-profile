@@ -1,4 +1,5 @@
 import { MotionConfig } from 'framer-motion';
+import Nav from './components/Nav.jsx';
 import Hero from './sections/Hero.jsx';
 import About from './sections/About.jsx';
 import Projects from './sections/Projects.jsx';
@@ -8,6 +9,8 @@ import Footer from './sections/Footer.jsx';
 export default function App() {
   return (
     <MotionConfig reducedMotion="user">
+      <div id="top" />
+      <Nav />
       <main className="container">
         <Hero />
         <About />
