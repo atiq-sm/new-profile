@@ -3,13 +3,13 @@ import { parseGithubRepo, useGithubRepo } from '../hooks/useGithubRepo.js';
 function formatRelative(iso) {
   const then = new Date(iso).getTime();
   if (Number.isNaN(then)) return null;
-  const days = Math.max(0, Math.round((Date.now() - then) / 86_400_000));
+  const days = Math.max(0, Math.floor((Date.now() - then) / 86_400_000));
   if (days === 0) return 'updated today';
   if (days === 1) return 'updated yesterday';
   if (days < 30) return `updated ${days}d ago`;
-  const months = Math.round(days / 30);
+  const months = Math.floor(days / 30);
   if (months < 12) return `updated ${months}mo ago`;
-  const years = Math.round(days / 365);
+  const years = Math.floor(days / 365);
   return `updated ${years}y ago`;
 }
 

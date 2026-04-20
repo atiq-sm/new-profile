@@ -9,7 +9,7 @@ import Footer from './sections/Footer.jsx';
 export default function App() {
   return (
     <MotionConfig reducedMotion="user">
-      <a id="top" />
+      <div id="top" />
       <Nav />
       <main className="container">
         <Hero />

@@ -32,13 +32,17 @@ export function useGithubRepo(owner, repo) {
   const [state, setState] = useState({ data: null, error: null });
 
   useEffect(() => {
-    if (!owner || !repo) return;
+    if (!owner || !repo) {
+      setState({ data: null, error: null });
+      return;
+    }
     const key = `${CACHE_PREFIX}${owner}/${repo}`;
     const cached = readCache(key);
     if (cached) {
       setState({ data: cached, error: null });
       return;
     }
+    setState({ data: null, error: null });
     const controller = new AbortController();
     fetch(`https://api.github.com/repos/${owner}/${repo}`, {
       signal: controller.signal,

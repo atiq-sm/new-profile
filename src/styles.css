@@ -67,6 +67,7 @@ body {
 
 html {
   scroll-behavior: smooth;
+  scroll-padding-top: 72px;
 }
 
 @media (prefers-reduced-motion: reduce) {
@@ -292,7 +293,7 @@ p {
 }
 
 @media (max-width: 520px) {
-  .nav-links li:not(:last-child) a {
+  .nav-links li:not(:last-child) {
     display: none;
   }
 }
