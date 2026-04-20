@@ -1,35 +1,57 @@
 // Single source of truth for portfolio content.
-// TODO: fill in your details below.
+// TODO: tagline, about, linkedin, and email still need real values.
 
 export const site = {
-  name: 'Your Name',
+  name: 'Atiq Mohammed',
+  // TODO: replace with your real tagline (one line, what you do).
   tagline: 'Short tagline — what you do, in one line.',
+  // TODO: replace with a 2–3 sentence bio.
   about:
     'A short paragraph about you: your background, what you work on, ' +
     'and what you care about. Two or three sentences is plenty.',
   links: {
     github: 'https://github.com/atiq-sm',
+    // TODO: replace with your LinkedIn URL.
     linkedin: 'https://www.linkedin.com/in/your-handle/',
+    // TODO: replace with your contact email.
     email: 'you@example.com',
   },
   projects: [
     {
-      title: 'Project One',
-      description: 'One-line description of what it does and why it matters.',
-      href: 'https://github.com/atiq-sm/project-one',
-      tags: ['React', 'TypeScript'],
+      title: 'Lending Club Analysis',
+      description:
+        'ML on Lending Club loan data: predicting loan grades, surfacing the features that drive them, and exploring the shape of the dataset.',
+      href: 'https://github.com/atiq-sm/Lending-Club-Analysis',
+      tags: ['Python', 'ML', 'Jupyter'],
     },
     {
-      title: 'Project Two',
-      description: 'Another project — keep descriptions short and concrete.',
-      href: 'https://github.com/atiq-sm/project-two',
-      tags: ['Python', 'ML'],
+      title: 'ZombieGame',
+      // TODO: describe what makes this prototype interesting.
+      description: 'Zombie-survival game prototype built in Unity.',
+      href: 'https://github.com/atiq-sm/ZombieGame',
+      tags: ['Unity', 'C#'],
     },
     {
-      title: 'Project Three',
-      description: 'Delete this card or add more as needed.',
-      href: 'https://github.com/atiq-sm/project-three',
-      tags: ['Go'],
+      title: 'ZombieAR',
+      // TODO: describe the AR mechanics you explored.
+      description:
+        'An augmented-reality spin on the ZombieGame prototype, built in Unity.',
+      href: 'https://github.com/atiq-sm/ZombieAR',
+      tags: ['Unity', 'AR', 'C#'],
+    },
+    {
+      title: 'CS 5330 Final Project',
+      // TODO: describe the problem and approach (CS 5330 = Pattern Recognition & Computer Vision).
+      description: 'Graduate computer-vision coursework capstone in Python.',
+      href: 'https://github.com/atiq-sm/CS-5330-Final-Project',
+      tags: ['Python', 'Computer Vision'],
+    },
+    {
+      title: 'Portfolio Site',
+      description:
+        'This site — a Vite + React portfolio with live GitHub repo metadata, animated scroll reveals, and a tuned type + color system.',
+      href: 'https://github.com/atiq-sm/new-profile',
+      tags: ['React', 'Vite', 'Framer Motion'],
     },
   ],
 };
