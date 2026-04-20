@@ -18,6 +18,13 @@ export const site = {
   },
   projects: [
     {
+      title: 'MR POCUS Training System',
+      description:
+        'Mixed-reality ultrasound trainer for Meta Quest 3: instructors calibrate spatial anchors on a manikin, then controller pose-matching cues the right pathology clip in-world. Built in Unity 6 for pediatric POCUS learners.',
+      href: 'https://github.com/atiq-sm/MR-POCUS',
+      tags: ['Unity 6', 'Meta Quest 3', 'Mixed Reality', 'C#'],
+    },
+    {
       title: 'Lending Club Analysis',
       description:
         'ML on Lending Club loan data: predicting loan grades, surfacing the features that drive them, and exploring the shape of the dataset.',
@@ -25,26 +32,18 @@ export const site = {
       tags: ['Python', 'ML', 'Jupyter'],
     },
     {
-      title: 'ZombieGame',
-      // TODO: describe what makes this prototype interesting.
-      description: 'Zombie-survival game prototype built in Unity.',
-      href: 'https://github.com/atiq-sm/ZombieGame',
-      tags: ['Unity', 'C#'],
-    },
-    {
-      title: 'ZombieAR',
-      // TODO: describe the AR mechanics you explored.
-      description:
-        'An augmented-reality spin on the ZombieGame prototype, built in Unity.',
-      href: 'https://github.com/atiq-sm/ZombieAR',
-      tags: ['Unity', 'AR', 'C#'],
-    },
-    {
       title: 'CS 5330 Final Project',
       // TODO: describe the problem and approach (CS 5330 = Pattern Recognition & Computer Vision).
       description: 'Graduate computer-vision coursework capstone in Python.',
       href: 'https://github.com/atiq-sm/CS-5330-Final-Project',
       tags: ['Python', 'Computer Vision'],
+    },
+    {
+      title: 'ZombieGame',
+      // TODO: describe what makes this prototype interesting.
+      description: 'Zombie-survival game prototype built in Unity.',
+      href: 'https://github.com/atiq-sm/ZombieGame',
+      tags: ['Unity', 'C#'],
     },
     {
       title: 'Portfolio Site',
