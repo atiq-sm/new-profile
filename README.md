@@ -2,7 +2,7 @@
 
 Personal portfolio site — built with Vite + React, deployed to GitHub Pages.
 
-Live site (after first deploy): https://atiq-sm.github.io/new-profile/
+Live site (after first deploy): https://atiq-sm.github.io
 
 ## Quickstart
 
